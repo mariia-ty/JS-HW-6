@@ -22,7 +22,7 @@
 
 // console.log("Assignment 3: ");
 // for (let a = 0; a < 13; a++) {
-//     console.log(a*7, " ");
+//     console.log(a*7);
 // }
 
 // Створити масив з числами від 1 до 5. Вивести на екран кожен елемент масиву за допомогою циклу while.
@@ -66,12 +66,20 @@
 //Якщо зустрінете число, кратне 3, цикл повинен продовжити виконання за допомогою оператора continue.
 
 // console.log("Assignment 7: ");
-// let c = 1; 
+
+// for (let r = 1; r < 21; r++) {
+//     if (r % 3 == 0)
+//         continue
+//     else
+//         console.log(r);
+// }
+//let c = 1; 
 // while (c < 21) {
 //     if (c % 3 == 0) {
-//         continue
+//         continue;
 //     }
-//     else 
+//     else {
 //         console.log(c);
+//     }
 //     c++;
 // }
